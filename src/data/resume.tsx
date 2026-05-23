@@ -39,6 +39,7 @@ export const DATA = {
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    { href: "/project", icon: NotebookIcon, label: "Project" },
   ],
   contact: {
     email: "hello@example.com",
@@ -192,7 +193,7 @@ export const DATA = {
   projects: [
     {
       title: "Chat Collect",
-      href: "https://chatcollect.com",
+      href: "/project",
       dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
@@ -210,7 +211,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          href: "/project",
           icon: <Icons.globe className="size-3" />,
         },
       ],
