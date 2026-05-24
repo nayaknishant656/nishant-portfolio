@@ -13,57 +13,84 @@ import { Java } from "@/components/ui/svgs/java";
 import { Csharp } from "@/components/ui/svgs/csharp";
 
 export const DATA = {
-  name: "Nishant Kumar Nayak",
-  initials: "DV",
-  url: "https://dillion.io",
-  location: "San Francisco, CA",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  name: "Nishant Nayak",
+  initials: "NN",
+  url: "https://portfolio-nishant-ten.vercel.app",
+  location: "Jaipur, India",
+  locationLink: "https://www.google.com/maps/place/Jaipur,+Rajasthan",
   description:
-    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
+    "Software Developer & Product Designer",
   summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
+    "Coding since Class 7, building products since 16. Full-stack developer with hands-on experience in web apps, REST APIs, and AI-integrated platforms. Strong problem intuition, deep online research habits, and a proven ability to architect and ship complex systems independently.",
   avatarUrl: "/me.png",
   skills: [
-    { name: "React", icon: ReactLight },
-    { name: "Next.js", icon: NextjsIconDark },
-    { name: "Typescript", icon: Typescript },
-    { name: "Node.js", icon: Nodejs },
+    // Languages
+    { name: "JavaScript" },
+    { name: "TypeScript", icon: Typescript },
     { name: "Python", icon: Python },
-    { name: "Go", icon: Golang },
-    { name: "Postgres", icon: Postgresql },
+    { name: "PHP" },
+    { name: "HTML" },
+    { name: "CSS" },
+    { name: "SQL" },
+    // Frontend
+    { name: "React.js", icon: ReactLight },
+    { name: "Next.js", icon: NextjsIconDark },
+    { name: "Vite" },
+    { name: "Tailwind CSS" },
+    { name: "React-Router" },
+    { name: "Owl Carousel" },
+    // Backend
+    { name: "Node.js", icon: Nodejs },
+    { name: "Express.js" },
+    { name: "REST APIs" },
+    { name: "JWT Authentication" },
+    { name: "WebRTC" },
+    // Databases
+    { name: "MongoDB" },
+    { name: "Mongoose" },
+    { name: "MySQL" },
+    { name: "PostgreSQL", icon: Postgresql },
+    { name: "Pinecone" },
+    // AI / ML
+    { name: "OpenAI API" },
+    { name: "Gemini 2.0" },
+    { name: "LangChain" },
+    { name: "BeautifulSoup" },
+    { name: "OpenAI Embeddings" },
+    { name: "MCP" },
+    { name: "Agentic Architecture" },
+    // DevOps & Tools
     { name: "Docker", icon: Docker },
-    { name: "Kubernetes", icon: Kubernetes },
-    { name: "Java", icon: Java },
-    { name: "C++", icon: Csharp },
-  ],
+    { name: "Vercel" },
+    { name: "Git" },
+    { name: "GitHub" },
+  ] as readonly { name: string; icon?: any }[],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
     { href: "/project", icon: NotebookIcon, label: "Project" },
   ],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "nishantnayak094@gmail.com",
+    tel: "6204616961",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/nayaknishant656",
         icon: Icons.github,
         navbar: true,
       },
-
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
+        url: "https://linkedin.com/in/nishant-nayak-263512449",
         icon: Icons.linkedin,
-
         navbar: true,
       },
+      /*
       X: {
         name: "X",
         url: "https://dub.sh/dillion-twitter",
         icon: Icons.x,
-
         navbar: true,
       },
       Youtube: {
@@ -72,17 +99,17 @@ export const DATA = {
         icon: Icons.youtube,
         navbar: true,
       },
+      */
       email: {
         name: "Send Email",
-        url: "#",
+        url: "mailto:nishantnayak094@gmail.com",
         icon: Icons.email,
-
-        navbar: false,
+        navbar: true,
       },
     },
   },
-
   work: [
+
     {
       company: "Atomic Finance",
       href: "https://atomic.finance",
@@ -131,32 +158,58 @@ export const DATA = {
       description:
         "Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.",
     },
-    {
-      company: "Lime",
-      href: "https://li.me/",
-      badges: [],
-      location: "San Francisco, CA",
-      title: "Software Engineer",
-      logoUrl: "/lime.svg",
-      start: "January 2018",
-      end: "April 2018",
-      description:
-        "Proposed and implemented an internal ruby API for sending/receiving commands to scooters over LTE networks. Developed a fully automated bike firmware update system to handle asynchronous firmware updates of over 100,000+ scooters worldwide, and provide progress reports in real-time using React, Ruby on Rails, PostgreSQL and AWS EC2 saving hundreds of developer hours.",
-    },
-    {
-      company: "Mitre Media",
-      href: "https://mitremedia.com/",
-      badges: [],
-      location: "Toronto, ON",
-      title: "Software Engineer",
-      logoUrl: "/mitremedia.png",
-      start: "May 2017",
-      end: "August 2017",
-      description:
-        "Designed and implemented a robust password encryption and browser cookie storage system in Ruby on Rails. Leveraged the Yahoo finance API to develop the dividend.com equity screener",
-    },
-  ],
+    // {
+    //   company: "Lime",
+    //   href: "https://li.me/",
+    //   badges: [],
+    //   location: "San Francisco, CA",
+    //   title: "Software Engineer",
+    //   logoUrl: "/lime.svg",
+    //   start: "January 2018",
+    //   end: "April 2018",
+    //   description:
+    //     "Proposed and implemented an internal ruby API for sending/receiving commands to scooters over LTE networks. Developed a fully automated bike firmware update system to handle asynchronous firmware updates of over 100,000+ scooters worldwide, and provide progress reports in real-time using React, Ruby on Rails, PostgreSQL and AWS EC2 saving hundreds of developer hours.",
+    // },
+    // {
+    //   company: "Mitre Media",
+    //   href: "https://mitremedia.com/",
+    //   badges: [],
+    //   location: "Toronto, ON",
+    //   title: "Software Engineer",
+    //   logoUrl: "/mitremedia.png",
+    //   start: "May 2017",
+    //   end: "August 2017",
+    //   description:
+    //     "Designed and implemented a robust password encryption and browser cookie storage system in Ruby on Rails. Leveraged the Yahoo finance API to develop the dividend.com equity screener",
+    // },
+
+  ] as readonly any[],
   education: [
+    {
+      school: "Poornima University",
+      href: "https://www.poornima.edu.in/",
+      degree: "Bachelor of Technology - Computer Science",
+      logoUrl: "",
+      start: "2025",
+      end: "Present",
+    },
+    {
+      school: "JAC Board",
+      href: "#",
+      degree: "Class XII - Science (83%)",
+      logoUrl: "",
+      start: "",
+      end: "",
+    },
+    {
+      school: "ICSE Board",
+      href: "#",
+      degree: "Class X (81%)",
+      logoUrl: "",
+      start: "",
+      end: "2024",
+    },
+    /*
     {
       school: "Buildspace",
       href: "https://buildspace.so",
@@ -189,8 +242,279 @@ export const DATA = {
       start: "2012",
       end: "2016",
     },
+    */
   ],
   projects: [
+    {
+      title: "Snappy-Poornima",
+      href: "#",
+      dates: "Jan 2026",
+      active: true,
+      description:
+        "Upcoming project focused on solving campus network talent hiring and resource asymmetry. Architected using Next.js, Python and LangChain for AI pipelines, Pinecone for vector search, and Docker for containerized deployment.",
+      technologies: [
+        "Next.js",
+        "Python",
+        "LangChain",
+        "Pinecone",
+        "Docker",
+        "Node.js",
+      ],
+      links: [],
+      image: "",
+      video: "",
+    },
+    {
+      title: "Emotionally-AI",
+      href: "https://linksnap-sample.netlify.app",
+      dates: "Mar 2026",
+      active: true,
+      description:
+        "Integrated OpenAI model with Express and MongoDB to analyze journals and generate emotional state insights. Developed 5+ REST endpoints to store and retrieve data from MongoDB. Built an intuitive UI in Next.js with Tailwind CSS and implemented search functionality by User ID.",
+      technologies: ["Next.js", "Node.js", "Express", "MongoDB", "OpenAI"],
+      links: [
+        {
+          type: "Website",
+          href: "https://linksnap-sample.netlify.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "TRADE-Platform",
+      href: "https://tradeai-platform.vercel.app",
+      dates: "Feb 2026",
+      active: true,
+      description:
+        "Built a full-stack product listing platform with JWT-secured sign-in and sign-up flows. Implemented CRUD operations (create, delete, update, edit) for products with filtering and sorting. Designed RESTful API with Node.js/Express.js and MongoDB schema for efficient data management.",
+      technologies: ["React", "Node.js", "Express.js", "MongoDB", "JWT"],
+      links: [
+        {
+          type: "Website",
+          href: "https://tradeai-platform.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "API-Playground",
+      href: "https://predusk-frontend-react-geyj.vercel.app",
+      dates: "Feb 2026",
+      active: true,
+      description:
+        "Developed a RESTful API with multiple endpoints for product management including Create, Search, and Category. Designed and implemented a MongoDB schema for efficient data storage and retrieval. Built a minimal Vite-powered UI for testing and demonstrating API endpoints.",
+      technologies: ["Vite", "MongoDB", "Express", "Node.js", "Vercel"],
+      links: [
+        {
+          type: "Website",
+          href: "https://predusk-frontend-react-geyj.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "RTSP Streaming Platform",
+      href: "#",
+      dates: "Jan 2026",
+      active: true,
+      description:
+        "Architected an end-to-end RTSP-to-browser streaming pipeline: incoming RTSP feed is converted to HLS format, encoded to Base64, and streamed to the frontend via WebRTC protocol. Built a Go backend service responsible for RTSP-to-HLS conversion and real-time Base64 encoding for WebRTC transport. Developed a Python/FastAPI server to handle video timestamp posting, image coordinate tracking, and serving dashboard data from MongoDB. Integrated video.js on the frontend to decode and play Base64-encoded video streams delivered via WebRTC in real time. Designed a dashboard with GET endpoints to fetch annotated images and POST endpoints to record frame positions and coordinates. Stored stream metadata, timestamps, and image coordinate data in MongoDB for analytics and playback reference.",
+      technologies: [
+        "Go",
+        "Python",
+        "FastAPI",
+        "MongoDB",
+        "WebRTC",
+        "video.js",
+        "Next.js",
+      ],
+      links: [],
+      image: "",
+      video: "",
+    },
+    {
+      title: "TASK-Planet",
+      href: "https://task-media-app-frontend-fred.vercel.app",
+      dates: "Jan 2026",
+      active: true,
+      description:
+        "Implemented JWT authentication for login, sign-ups, and per-request validation. Built a task-posting feature with card-based UI showing likes and comments. Designed a fully responsive UI with Tailwind CSS and drag-and-drop section reordering.",
+      technologies: [
+        "React",
+        "Tailwind CSS",
+        "Node.js",
+        "MongoDB",
+        "Express.js",
+        "JWT",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://task-media-app-frontend-fred.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "Doctor_AI",
+      href: "https://main.d3f97a5gw6007u.amplifyapp.com",
+      dates: "Mar 2025",
+      active: true,
+      description:
+        "Built an online blood report analysis web app that analyzes blood report PDFs using Gemini 2.0. Developed 2 microservices to parse and analyze PDF content. Implementing additional features: download report, WhatsApp shareable link, and doctor recommendation system.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "JavaScript",
+        "CSS",
+        "Node.js",
+        "Gemini 2.0",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://main.d3f97a5gw6007u.amplifyapp.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "Paardarshi",
+      href: "https://paardarshi-frontend.vercel.app",
+      dates: "Mar 2024",
+      active: true,
+      description:
+        "Built a transparent donor verification web portal for a residential society - streamed live on YouTube. Features include searching, sorting, receipt printing, WhatsApp shareable receipts, and certificate generation. Added certificate image download in JPG; fully responsive across all devices.",
+      technologies: [
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "JavaScript",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://paardarshi-frontend.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "Certificate Generator",
+      href: "https://nawnitstudio.000webhostapp.com/certificate/index.html",
+      dates: "Aug 2022",
+      active: true,
+      description:
+        "Developed a donation platform for a village temple using social FOMO strategy via WhatsApp status certificates. Features include searching, sorting, receipt printing, and WhatsApp shareable receipts.",
+      technologies: ["React", "Node.js", "Express.js", "MongoDB", "JavaScript"],
+      links: [
+        {
+          type: "Website",
+          href: "https://nawnitstudio.000webhostapp.com/certificate/index.html",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "Ppassport",
+      href: "https://nawnitstudio.000webhostapp.com",
+      dates: "Aug 2021",
+      active: true,
+      description:
+        "Built an active business platform that helps users obtain passport photos using their ID. Developed full-stack interface for image upload and fetch using PHP connected to MySQL.",
+      technologies: ["HTML", "CSS", "PHP", "MySQL"],
+      links: [
+        {
+          type: "Website",
+          href: "https://nawnitstudio.000webhostapp.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "React E-Commerce Webapp",
+      href: "https://lustrous-moonbeam-ea4656.netlify.app",
+      dates: "May 2023",
+      active: true,
+      description:
+        "Built a complete e-commerce web app in 5 days using React with add-to-cart, checkout, and carousel features. Integrated Fabric.js and Image Carousel; fully responsive across all devices.",
+      technologies: ["React", "JavaScript", "CSS", "Node.js", "Express"],
+      links: [
+        {
+          type: "Website",
+          href: "https://lustrous-moonbeam-ea4656.netlify.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "Nawnit Studio Prints",
+      href: "https://nawnitstudio.000webhostapp.com/nawnit/index.html",
+      dates: "Apr 2021",
+      active: true,
+      description:
+        "Started at age 16 during COVID-19 lockdown; built registration forms, MySQL/PHP backend, and payment gateways. Features include image uploads, payment gateways, and user suggestions.",
+      technologies: ["JavaScript", "PHP", "MySQL", "Node.js", "Express"],
+      links: [
+        {
+          type: "Website",
+          href: "https://nawnitstudio.000webhostapp.com/nawnit/index.html",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "Kissan",
+      href: "https://nawnitstudio.000webhostapp.com/rev/index.html",
+      dates: "May 2023",
+      active: true,
+      description:
+        "Built a startup with web scraping and WhatsApp bulk messaging via WBM for outreach at scale. Developed a fully functional official site with WhatsApp API integration.",
+      technologies: ["CSS", "JavaScript", "WhatsApp API"],
+      links: [
+        {
+          type: "Website",
+          href: "https://nawnitstudio.000webhostapp.com/rev/index.html",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "OFFLINE",
+      href: "#",
+      dates: "Boredom Project",
+      active: true,
+      description:
+        "A boredom project worked on for fun. Features include searching, sorting, receipt printing, and WhatsApp shareable receipts. Used MongoDB for storing donor details. Backend developed with Node.js and Express.js.",
+      technologies: ["React", "JavaScript", "CSS", "React-Router", "Node.js", "Express", "MongoDB"],
+      links: [],
+      image: "",
+      video: "",
+    },
+    /*
     {
       title: "Chat Collect",
       href: "/project",
@@ -313,6 +637,7 @@ export const DATA = {
       video:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     },
+    */
   ],
   hackathons: [
     {
@@ -698,5 +1023,6 @@ export const DATA = {
         },
       ],
     },
-  ],
+
+  ] as readonly any[],
 } as const;
