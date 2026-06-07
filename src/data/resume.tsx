@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon, NotebookIcon, Presentation } from "lucide-react";
 import { ReactLight } from "@/components/ui/svgs/reactLight";
 import { NextjsIconDark } from "@/components/ui/svgs/nextjsIconDark";
 import { Typescript } from "@/components/ui/svgs/typescript";
@@ -68,7 +68,7 @@ export const DATA = {
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
-    { href: "/project", icon: NotebookIcon, label: "Project" },
+    { href: "/project", icon: Presentation, label: "Project" },
   ],
   contact: {
     email: "nishantnayak094@gmail.com",
@@ -172,7 +172,7 @@ export const DATA = {
   projects: [
     {
       title: "Snappy-Poornima",
-      href: "#",
+      href: "/project",
       dates: "Jan 2026",
       active: true,
       description:
@@ -191,7 +191,7 @@ export const DATA = {
     },
     {
       title: "Emotionally-AI",
-      href: "https://linksnap-sample.netlify.app",
+      href: "/project/emotionally-ai",
       dates: "Mar 2026",
       active: true,
       description:
