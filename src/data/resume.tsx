@@ -115,7 +115,7 @@ export const DATA = {
       href: "https://www.poornima.edu.in/",
       degree: "Bachelor of Technology - Computer Science",
       logoUrl: "",
-      start: "2025",
+      start: "",
       end: "Present",
     },
     {
