@@ -1,7 +1,9 @@
 import React from 'react'
 
-export default function page() {
-  return (
-    <div>project</div>
-  )
+function page() {
+    return (
+        <div>Hello project this side of the Following </div>
+    )
 }
+
+export default page

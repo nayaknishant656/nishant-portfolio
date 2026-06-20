@@ -68,7 +68,7 @@ export const DATA = {
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
-    { href: "/project", icon: Presentation, label: "Project" },
+    { href: "/project/1", icon: Presentation, label: "Project" },
   ],
   contact: {
     email: "nishantnayak094@gmail.com",
