@@ -249,7 +249,7 @@ export const DATA = {
       dates: "Jan 2026",
       active: true,
       description:
-        "Architected an end-to-end RTSP-to-browser streaming pipeline: incoming RTSP feed is converted to HLS format, encoded to Base64, and streamed to the frontend via WebRTC protocol. Built a Go backend service responsible for RTSP-to-HLS conversion and real-time Base64 encoding for WebRTC transport. Developed a Python/FastAPI server to handle video timestamp posting, image coordinate tracking, and serving dashboard data from MongoDB. Integrated video.js on the frontend to decode and play Base64-encoded video streams delivered via WebRTC in real time. Designed a dashboard with GET endpoints to fetch annotated images and POST endpoints to record frame positions and coordinates. Stored stream metadata, timestamps, and image coordinate data in MongoDB for analytics and playback reference.",
+        "Architected an end-to-end RTSP-to-browser streaming pipeline: incoming RTSP feed is converted to HLS format, encoded to Base64, and streamed to the frontend via WebRTC protocol.",
       technologies: [
         "Go",
         "Python",
