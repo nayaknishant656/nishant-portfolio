@@ -1,8 +1,29 @@
 import { withContentCollections } from "@content-collections/next";
 
-/** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
+        port: "",
+        pathname: "/**",
+      },
+    ],
+  },
+
+
+  webpack(config, { dev }) {
+    if (dev) {
+      config.watchOptions = {
+        poll: 1000,
+        aggregateTimeout: 300,
+      };
+    }
+    return config;
+  },
+
   async headers() {
     return [
       {
@@ -30,5 +51,4 @@ const nextConfig = {
   },
 };
 
-// withContentCollections must be the outermost plugin
 export default withContentCollections(nextConfig);
