@@ -1,0 +1,34 @@
+{
+    "blogs": [
+        {
+            "slug": "1",
+            "title": "Emotionally-AI",
+            "date": "April 13 - April 20",
+            "introduction": "Emotionally-AI is an AI-powered emotional wellness platform designed to help users understand, monitor, and improve their emotional health through intelligent conversations, mood tracking, and personalized insights.",
+            "description": "An AI-powered emotional wellness platform that helps users track emotions and improve mental well-being.",
+            "coverImage": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3",
+            "content": [
+                {
+                    "title": "Research & Discovery",
+                    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
+                    "description": "Research focused on understanding emotional wellness, user pain points, AI-assisted therapy, and digital mental health experiences through interviews and market analysis."
+                },
+                {
+                    "title": "Problem Statement",
+                    "image": "https://images.unsplash.com/photo-1493836512294-502baa1986e2",
+                    "description": "Users often struggle to understand their emotional state and lack personalized tools that provide actionable mental wellness insights."
+                },
+                {
+                    "title": "Design Process",
+                    "image": "https://images.unsplash.com/photo-1552664730-d307ca884978",
+                    "description": "The design process involved user flows, wireframing, UI prototyping, usability testing, accessibility improvements, and iterative feedback."
+                },
+                {
+                    "title": "Final Solution",
+                    "image": "https://images.unsplash.com/photo-1516321497487-e288fb19713f",
+                    "description": "The final platform combines AI-powered conversations, mood tracking, analytics dashboards, journaling, and personalized wellness recommendations."
+                }
+            ]
+        }
+    ]
+}
